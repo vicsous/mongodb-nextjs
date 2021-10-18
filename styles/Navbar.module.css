@@ -1,0 +1,87 @@
+.menu {
+    margin-left: 50%;
+    @apply bg-black text-white w-2/4 absolute flex flex-col shadow-2xl	
+}
+
+.menuBtn {
+    @apply sm:hidden h-8 w-8
+}
+.menuLink {
+    @apply p-5 hover:bg-white hover:text-black w-full text-2xl underline 
+} 
+
+.btnMenu {
+    @apply p-5 bg-white text-black hover:bg-black hover:text-white w-full text-2xl underline 
+}
+
+.navbar {
+    @apply bg-black text-white h-16 px-8 flex items-center content-center justify-between border-b shadow-xl	
+}
+
+.links {
+    @apply sm:flex hidden items-center  
+}
+
+.link {
+    @apply mr-4
+}
+
+.logo {
+    @apply text-3xl
+}
+
+.login {
+    @apply bg-white text-black hover:bg-black hover:text-white p-3  border rounded-md mr-2
+}
+
+.signup {
+    @apply bg-white text-black hover:bg-black hover:text-white p-3 border rounded-md 
+}
+
+.shaddow {
+    @apply bg-white w-full h-full fixed bg-gray-900 bg-opacity-50 flex
+}
+
+.loginDiv {
+    @apply bg-white m-auto flex items-center content-center justify-center w-96 sm:w-1/2 h-1/2 text-center 
+} 
+
+.loginForm {
+    @apply flex flex-col p-24
+}
+
+.loginSubmitBtn {
+    @apply border bg-black text-white p-3 w-full my-2 hover:bg-white hover:text-black 
+}
+
+.loginSubmitBtnSbmt {
+    @apply border bg-gray-500 text-white p-3 w-full my-2 
+}
+
+.loginInput {
+    @apply form-input mb-4
+}
+
+.loginInputError {
+    @apply form-input
+}
+
+.passwordInput {
+    @apply form-input 
+}
+
+.formTitle {
+    @apply font-bold text-3xl my-4
+}
+
+.pwChkbox {
+    @apply mb-2 cursor-pointer
+}
+
+.pwForget {
+    @apply underline
+}
+
+.errorMsg{
+    @apply mb-2 text-red-500
+}
